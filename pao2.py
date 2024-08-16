@@ -8,5 +8,16 @@ def get_info():
 
 print(Alunos)
 
-def add_aluno():
+R  = input("deseja adicionar aluno?")
+
+if (R == "s"):
+
+    def add_aluno():
+        nome = input("Nome")
+        idade = input("Idade")
+        prontuario = input("Prontuario")
+        NP = input("Nota de porugues")
+        NM = input("Nota de matematica")
+        NC = input("Nota de ciencias")
+        Media = (NP+NM+NC)/3
     
